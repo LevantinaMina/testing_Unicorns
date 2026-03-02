@@ -85,35 +85,7 @@ class NewStartupPage:
         # 3. Ждем, пока календарь появится
         browser.element(self.DATEPICKER).with_(timeout=10).should(be.visible)
         time.sleep(1)
-
-        # 4. Ищем кнопку Today разными способами
-        today_selectors = [
-            f'{self.DATEPICKER} button[data-value="Today"]',
-            f'{self.DATEPICKER} button:has-text("Today")',
-            f'{self.DATEPICKER} button:has-text("Сегодня")'
-        ]
-
-        today_button = None
-        for selector in today_selectors:
-            try:
-                today_button = browser.element(selector)
-                if today_button.with_(timeout=2).matching(be.visible):
-                    break
-            except:
-                continue
-
-        if not today_button or not today_button.matching(be.visible):
-            # Если не нашли кнопку Today, попробуем кликнуть на сегодняшнее число
-            print("Кнопка Today не найдена, пробуем кликнуть на сегодняшнее число")
-            # Обычно сегодняшнее число имеет класс 'active' или 'selected'
-            today_cell = browser.element(f'{self.DATEPICKER} .active, {self.DATEPICKER} .selected')
-            today_cell.with_(timeout=5).should(be.visible).click()
-        else:
-            today_button.click()
-
-        time.sleep(2)  # ждем, пока дата выберется и календарь закроется
-
-        return self
+        
 
     def select_traction_today_date(self, field_input):
         """Выбирает сегодняшнюю дату для поля Traction"""
@@ -193,4 +165,5 @@ class NewStartupPage:
     # --- Очистка (если нужна) ---
     def clear_name(self):
         browser.element(self.NAME_INPUT).clear()
+
         return self
