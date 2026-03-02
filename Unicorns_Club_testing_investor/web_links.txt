@@ -1,20 +1,33 @@
-главная страница - https://stage.dev.unicorns.club/
-opportunities:
+everyone (available to all, no auth required):
     Explore - https://stage.dev.unicorns.club/
+    Public startup profile (example) - https://stage.dev.unicorns.club/company/startup/0eff9edd-e6bd-4060-82a8-70cf61f5ad22
+    Public investor profile (example) - https://stage.dev.unicorns.club/company/investor/15902623-0b8d-445a-b49c-9f3f8c5173db
+    Public startup update (example) - https://stage.dev.unicorns.club/post/d59e5729-076c-48c6-8731-2e5e2e9cf2cf
+    Animation builder - https://stage.dev.unicorns.club/animated-startup-highlights
+    Unicorns Club for startups: raise capital and attract investors without cold outreach - https://stage.dev.unicorns.club/unicorns-club-for-startups-raise-capital-and-attract-investors-without-cold-outreach
+    What is the Unicorn Index? A scoring system for early-stage startups - https://stage.dev.unicorns.club/what-is-the-unicorn-index-a-scoring-system-for-early-stage-startups
+    Unicorns Club for investors: discover and invest in high-signal pre-seed startups before everyone else - https://stage.dev.unicorns.club/unicorns-club-for-investors-discover-and-invest-in-high-signal-pre-seed-startups-before-everyone-else
+    How do investors see your startup? Let our valuation model estimate your attractiveness - https://stage.dev.unicorns.club/how-attractive-is-your-startup-to-investors
+    About Unicorns Club: a platform redefining startup fundraising and discovery - https://stage.dev.unicorns.club/about-unicorns-club-a-platform-redefining-startup-fundraising-and-discovery
+    Privacy policy - https://stage.dev.unicorns.club/policy
+    !!!Terms of service - no link
+    Log in - https://stage.dev.unicorns.club/login
+    Register - https://stage.dev.unicorns.club/register
+    Reset password - https://stage.dev.unicorns.club/forgot-password
+            
+all authorized users:
+    New startup application form - https://stage.dev.unicorns.club/new-startup
+    New investor application form - https://stage.dev.unicorns.club/new-investor
+    User profile completion form (after registration) - https://stage.dev.unicorns.club/register-details
+    Set a new password - https://stage.dev.unicorns.club/recovery/?email=valya15fenichco.com@mail.ru&code=Mzc4Yzg0ZmNmMzdjNWF2YWx5YTE1ZmVuaWNoY28uY29tQG1haWwucnU=
+    Email notifications preferences - https://stage.dev.unicorns.club/email-settings/b8918dcb-e074-440a-b1ad-29fb5d448a4e
+    Verification required - https://stage.dev.unicorns.club/email-verify/verification/?email=valya15fenichco.com@mail.ru&code=5549705a
 
-activity:
+authorized users with profiles:
     Feed - https://stage.dev.unicorns.club/feed
     Network - https://stage.dev.unicorns.club/network
     Inbox - https://stage.dev.unicorns.club/message-center
-
-my space:
-    My profile - https://stage.dev.unicorns.club/admin/startup/0eff9edd-e6bd-4060-82a8-70cf61f5ad22
-    My updates - https://stage.dev.unicorns.club/my-updates
-
-footer:
-    Unicorns Club for startups: raise capital and att - https://stage.dev.unicorns.club/unicorns-club-for-startups-raise-capital-and-attract-investors-without-cold-outreach
-    What is the Unicorn Index? A scoring system for -https://stage.dev.unicorns.club/what-is-the-unicorn-index-a-scoring-system-for-early-stage-startups
-    Unicorns Club for investors: discover and invest in -https://stage.dev.unicorns.club/unicorns-club-for-investors-discover-and-invest-in-high-signal-pre-seed-startups-before-everyone-else
-    How do investors see your startup? Let our valua - https://stage.dev.unicorns.club/how-attractive-is-your-startup-to-investors
-    About Unicorns Club: a platform redefining start - https://stage.dev.unicorns.club/about-unicorns-club-a-platform-redefining-startup-fundraising-and-discovery
-    Animation builder TOOL - https://stage.dev.unicorns.club/animated-startup-highlights
+    My updates(startup) - https://stage.dev.unicorns.club/my-updates
+    Startup admin - https://stage.dev.unicorns.club/admin/startup/0eff9edd-e6bd-4060-82a8-70cf61f5ad22
+    Investor admin - https://stage.dev.unicorns.club/admin/investor/15902623-0b8d-445a-b49c-9f3f8c5173db
+    
